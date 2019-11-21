@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="6" total="11" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Click to see Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Thu_Nov_21_00_03_09_IST_2019.jpg>Screenshot</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Thu_Nov_21_00_03_09_IST_2019.jpg><img src=Thu_Nov_21_00_03_09_IST_2019.jpg height=200 width=200></img></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Register Test Suite" duration-ms="47836" started-at="2019-11-21T00:01:24 IST" finished-at="2019-11-21T00:02:11 IST">
+    <groups>
+      <group name="Register Suite">
+        <method signature="TestCase_01_ValidateRegistrationDoneSuccessfully.validateRegistrationDoneSuccessfully()[pri:0, instance:com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully@27c6e487]" name="validateRegistrationDoneSuccessfully" class="com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully"/>
+        <method signature="TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank.validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank()[pri:0, instance:com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank@49070868]" name="validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank" class="com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank"/>
+      </group> <!-- Register Suite -->
+    </groups>
+    <test name="Register Test Cases" duration-ms="47836" started-at="2019-11-21T00:01:24 IST" finished-at="2019-11-21T00:02:11 IST">
+      <class name="com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully">
+        <test-method status="PASS" signature="loadDirectories()[pri:0, instance:com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully@27c6e487]" name="loadDirectories" is-config="true" duration-ms="31" started-at="2019-11-21T00:01:24 IST" finished-at="2019-11-21T00:01:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadDirectories -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully@27c6e487]" name="setup" is-config="true" duration-ms="13928" started-at="2019-11-21T00:01:24 IST" finished-at="2019-11-21T00:01:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateRegistrationDoneSuccessfully()[pri:0, instance:com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully@27c6e487]" name="validateRegistrationDoneSuccessfully" duration-ms="10723" started-at="2019-11-21T00:01:38 IST" description="TestCase_01_Validate registration done successfully" finished-at="2019-11-21T00:01:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationDoneSuccessfully -->
+        <test-method status="PASS" signature="completeTestCase()[pri:0, instance:com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully@27c6e487]" name="completeTestCase" is-config="true" duration-ms="1246" started-at="2019-11-21T00:01:49 IST" finished-at="2019-11-21T00:01:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTestCase -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully@27c6e487]" name="quit" is-config="true" duration-ms="0" started-at="2019-11-21T00:02:12 IST" finished-at="2019-11-21T00:02:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully -->
+      <class name="com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank@49070868]" name="setup" is-config="true" duration-ms="9440" started-at="2019-11-21T00:01:50 IST" finished-at="2019-11-21T00:02:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank()[pri:0, instance:com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank@49070868]" name="validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank" duration-ms="11228" started-at="2019-11-21T00:02:00 IST" description="TestCase_02_Validate register button should be enabled if password field blank" finished-at="2019-11-21T00:02:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank -->
+        <test-method status="PASS" signature="completeTestCase()[pri:0, instance:com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank@49070868]" name="completeTestCase" is-config="true" duration-ms="681" started-at="2019-11-21T00:02:11 IST" finished-at="2019-11-21T00:02:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTestCase -->
+      </class> <!-- com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank -->
+    </test> <!-- Register Test Cases -->
+  </suite> <!-- Register Test Suite -->
+  <suite name="Login Suite" duration-ms="79021" started-at="2019-11-21T00:02:12 IST" finished-at="2019-11-21T00:03:31 IST">
+    <groups>
+      <group name="Login Suite">
+        <method signature="TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled.validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled()[pri:0, instance:com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled@279ad2e3]" name="validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled" class="com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled"/>
+        <method signature="TestCase_04_ValidateDropDownValueOfFilterOnShopPage.validateDropDownValueOfFilterOnShopPage()[pri:0, instance:com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage@58134517]" name="validateDropDownValueOfFilterOnShopPage" class="com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage"/>
+      </group> <!-- Login Suite -->
+    </groups>
+    <test name="Test" duration-ms="79021" started-at="2019-11-21T00:02:12 IST" finished-at="2019-11-21T00:03:31 IST">
+      <class name="com.bhavin.testCases.TestCase_05_ValidateUserCanNotLoggedInWithoutPassword">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bhavin.testCases.TestCase_05_ValidateUserCanNotLoggedInWithoutPassword@4450d156]" name="setup" is-config="true" duration-ms="9415" started-at="2019-11-21T00:03:10 IST" finished-at="2019-11-21T00:03:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateUserCanNotLoggedInWithoutPassword()[pri:0, instance:com.bhavin.testCases.TestCase_05_ValidateUserCanNotLoggedInWithoutPassword@4450d156]" name="validateUserCanNotLoggedInWithoutPassword" duration-ms="10676" started-at="2019-11-21T00:03:19 IST" description="TestCase_05_Validate user can not logged in without password." finished-at="2019-11-21T00:03:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserCanNotLoggedInWithoutPassword -->
+        <test-method status="PASS" signature="completeTestCase()[pri:0, instance:com.bhavin.testCases.TestCase_05_ValidateUserCanNotLoggedInWithoutPassword@4450d156]" name="completeTestCase" is-config="true" duration-ms="683" started-at="2019-11-21T00:03:30 IST" finished-at="2019-11-21T00:03:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTestCase -->
+      </class> <!-- com.bhavin.testCases.TestCase_05_ValidateUserCanNotLoggedInWithoutPassword -->
+      <class name="com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled">
+        <test-method status="PASS" signature="loadDirectories()[pri:0, instance:com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled@279ad2e3]" name="loadDirectories" is-config="true" duration-ms="1" started-at="2019-11-21T00:02:12 IST" finished-at="2019-11-21T00:02:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadDirectories -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled@279ad2e3]" name="setup" is-config="true" duration-ms="9504" started-at="2019-11-21T00:02:12 IST" finished-at="2019-11-21T00:02:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled()[pri:0, instance:com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled@279ad2e3]" name="validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled" duration-ms="11142" started-at="2019-11-21T00:02:21 IST" description="TestCase_03_Validate register button should be disabled if password criteria not fulfiiled" finished-at="2019-11-21T00:02:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled -->
+        <test-method status="PASS" signature="completeTestCase()[pri:0, instance:com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled@279ad2e3]" name="completeTestCase" is-config="true" duration-ms="690" started-at="2019-11-21T00:02:32 IST" finished-at="2019-11-21T00:02:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTestCase -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled@279ad2e3]" name="quit" is-config="true" duration-ms="0" started-at="2019-11-21T00:03:31 IST" finished-at="2019-11-21T00:03:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled -->
+      <class name="com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage@58134517]" name="setup" is-config="true" duration-ms="9605" started-at="2019-11-21T00:02:33 IST" finished-at="2019-11-21T00:02:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="validateDropDownValueOfFilterOnShopPage()[pri:0, instance:com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage@58134517]" name="validateDropDownValueOfFilterOnShopPage" duration-ms="25008" started-at="2019-11-21T00:02:43 IST" description="TestCase_04_Validate drop down value of filter on shop page" finished-at="2019-11-21T00:03:08 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected Data missing : [low to high, high to low]Actual Data found :[]: lists don't have the same size expected [8] but found [6]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected Data missing : [low to high, high to low]Actual Data found :[]: lists don't have the same size expected [8] but found [6]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:1019)
+at com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage.validateDropDownValueOfFilterOnShopPage(TestCase_04_ValidateDropDownValueOfFilterOnShopPage.java:60)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click to see Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Thu_Nov_21_00_03_09_IST_2019.jpg>Screenshot</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Thu_Nov_21_00_03_09_IST_2019.jpg><img src=Thu_Nov_21_00_03_09_IST_2019.jpg height=200 width=200></img></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateDropDownValueOfFilterOnShopPage -->
+        <test-method status="PASS" signature="completeTestCase()[pri:0, instance:com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage@58134517]" name="completeTestCase" is-config="true" duration-ms="867" started-at="2019-11-21T00:03:09 IST" finished-at="2019-11-21T00:03:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTestCase -->
+      </class> <!-- com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Login Suite -->
+  <suite name="TestNG Dadadriver suite" duration-ms="0" started-at="2019-11-21T00:03:31 IST" finished-at="2019-11-21T00:03:31 IST">
+    <groups>
+    </groups>
+  </suite> <!-- TestNG Dadadriver suite -->
+</testng-results>

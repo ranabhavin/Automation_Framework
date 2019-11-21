@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Register_Test_Suite">
+              <span class="suite-name border-passed">Register Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Register_Test_Suite">
+                    <span>C:\Users\BhavinRana\eclipse-workspace\Automation_FrameWork\src\test\resources\runners\register_testSuite\register_testsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Register_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Register_Test_Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Register_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Register_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Register_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Register_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Register_Test_Suite" class="hide-methods passed suite-Register_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Register_Test_Suite -->
+                      <a href="#" panel-name="suite-Register_Test_Suite" class="show-methods passed suite-Register_Test_Suite"> (show)</a> <!-- show-methods passed suite-Register_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Register_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_Test_Suite" title="com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank" hash-for-method="validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank">validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Register_Test_Suite" title="com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully" hash-for-method="validateRegistrationDoneSuccessfully">validateRegistrationDoneSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Register_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Login_Suite">
+              <span class="suite-name border-failed">Login Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Login_Suite">
+                    <span>C:\Users\BhavinRana\eclipse-workspace\Automation_FrameWork\src\test\resources\runners\e2e_Suits\login_suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Login_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Login_Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Login_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Login_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Login_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Login_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Login_Suite" class="hide-methods failed suite-Login_Suite"> (hide)</a> <!-- hide-methods failed suite-Login_Suite -->
+                      <a href="#" panel-name="suite-Login_Suite" class="show-methods failed suite-Login_Suite"> (show)</a> <!-- show-methods failed suite-Login_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Login_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login_Suite" title="com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage" hash-for-method="validateDropDownValueOfFilterOnShopPage">validateDropDownValueOfFilterOnShopPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Login_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Login_Suite" class="hide-methods passed suite-Login_Suite"> (hide)</a> <!-- hide-methods passed suite-Login_Suite -->
+                      <a href="#" panel-name="suite-Login_Suite" class="show-methods passed suite-Login_Suite"> (show)</a> <!-- show-methods passed suite-Login_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Login_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login_Suite" title="com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled" hash-for-method="validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled">validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Login_Suite" title="com.bhavin.testCases.TestCase_05_ValidateUserCanNotLoggedInWithoutPassword" hash-for-method="validateUserCanNotLoggedInWithoutPassword">validateUserCanNotLoggedInWithoutPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Login_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Register_Test_Suite" class="panel Register_Test_Suite">
+          <div class="suite-Register_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank">
+                  </a> <!-- validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank -->
+                  <span class="method-name">validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank</span>
+                  <em>
+(TestCase_02_Validate register button should be enabled if password field blank)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Register_Test_Suite-class-passed -->
+          <div class="suite-Register_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegistrationDoneSuccessfully">
+                  </a> <!-- validateRegistrationDoneSuccessfully -->
+                  <span class="method-name">validateRegistrationDoneSuccessfully</span>
+                  <em>
+(TestCase_01_Validate registration done successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Register_Test_Suite-class-passed -->
+        </div> <!-- panel Register_Test_Suite -->
+        <div panel-name="suite-Login_Suite" class="panel Login_Suite">
+          <div class="suite-Login_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDropDownValueOfFilterOnShopPage">
+                  </a> <!-- validateDropDownValueOfFilterOnShopPage -->
+                  <span class="method-name">validateDropDownValueOfFilterOnShopPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected Data missing : [low to high, high to low]Actual Data found :[]: lists don&apos;t have the same size expected [8] but found [6]
+	at com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage.validateDropDownValueOfFilterOnShopPage(TestCase_04_ValidateDropDownValueOfFilterOnShopPage.java:60)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TestCase_04_Validate drop down value of filter on shop page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_Suite-class-failed -->
+          <div class="suite-Login_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bhavin.testCases.TestCase_05_ValidateUserCanNotLoggedInWithoutPassword</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanNotLoggedInWithoutPassword">
+                  </a> <!-- validateUserCanNotLoggedInWithoutPassword -->
+                  <span class="method-name">validateUserCanNotLoggedInWithoutPassword</span>
+                  <em>
+(TestCase_05_Validate user can not logged in without password.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_Suite-class-passed -->
+          <div class="suite-Login_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled">
+                  </a> <!-- validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled -->
+                  <span class="method-name">validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled</span>
+                  <em>
+(TestCase_03_Validate register button should be disabled if password criteria not fulfiiled)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login_Suite-class-passed -->
+        </div> <!-- panel Login_Suite -->
+        <div panel-name="suite-TestNG_Dadadriver_suite" class="panel TestNG_Dadadriver_suite">
+        </div> <!-- panel TestNG_Dadadriver_suite -->
+        <div panel-name="test-xml-Register_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\BhavinRana\eclipse-workspace\Automation_FrameWork\src\test\resources\runners\register_testSuite\register_testsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Register Test Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.bhavin.listeners.ExtentListeners&quot;/&gt;
+    &lt;listener class-name=&quot;com.bhavin.listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Register Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully&quot;/&gt;
+      &lt;class name=&quot;com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Register Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Register Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Login_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\BhavinRana\eclipse-workspace\Automation_FrameWork\src\test\resources\runners\e2e_Suits\login_suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Login Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.bhavin.listeners.ExtentListeners&quot;/&gt;
+    &lt;listener class-name=&quot;com.bhavin.listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled&quot;/&gt;
+      &lt;class name=&quot;com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage&quot;/&gt;
+      &lt;class name=&quot;com.bhavin.testCases.TestCase_05_ValidateUserCanNotLoggedInWithoutPassword&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Login Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-TestNG_Dadadriver_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\BhavinRana\eclipse-workspace\Automation_FrameWork\src\test\resources\runners\suites\suties.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestNG Dadadriver suite&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./src/test/resources/runners/register_testSuite/register_testsuite.xml&quot;/&gt;
+    &lt;suite-file path=&quot;./src/test/resources/runners/e2e_Suits/login_suite.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- TestNG Dadadriver suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Register_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Register Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Register Test Cases (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Login_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Login Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestNG_Dadadriver_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestNG Dadadriver suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Register_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Register Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Register Suite</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateRegistrationDoneSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Login_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Login Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Login Suite</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateDropDownValueOfFilterOnShopPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestNG_Dadadriver_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestNG Dadadriver suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Register_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Register Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Register_Test_Suite');
+function tableData_Register_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank')
+data.setCell(0, 2, 'com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank')
+data.setCell(0, 3, 11228);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateRegistrationDoneSuccessfully')
+data.setCell(1, 2, 'com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully')
+data.setCell(1, 3, 10723);
+window.suiteTableData['Register_Test_Suite']= { tableData: data, tableDiv: 'times-div-Register_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Register_Test_Suite">
+              </div> <!-- times-div-Register_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Login_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Login Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Login_Suite');
+function tableData_Login_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateDropDownValueOfFilterOnShopPage')
+data.setCell(0, 2, 'com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage')
+data.setCell(0, 3, 25008);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled')
+data.setCell(1, 2, 'com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled')
+data.setCell(1, 3, 11142);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateUserCanNotLoggedInWithoutPassword')
+data.setCell(2, 2, 'com.bhavin.testCases.TestCase_05_ValidateUserCanNotLoggedInWithoutPassword')
+data.setCell(2, 3, 10676);
+window.suiteTableData['Login_Suite']= { tableData: data, tableDiv: 'times-div-Login_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Login_Suite">
+              </div> <!-- times-div-Login_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestNG_Dadadriver_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestNG Dadadriver suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestNG_Dadadriver_suite');
+function tableData_TestNG_Dadadriver_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['TestNG_Dadadriver_suite']= { tableData: data, tableDiv: 'times-div-TestNG_Dadadriver_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-TestNG_Dadadriver_suite">
+              </div> <!-- times-div-TestNG_Dadadriver_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Register_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Register Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Login_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Login Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateDropDownValueOfFilterOnShopPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Click to see Screenshot</span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Nov_21_00_03_09_IST_2019.jpg>Screenshot</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target="_blank" href=Thu_Nov_21_00_03_09_IST_2019.jpg><img src=Thu_Nov_21_00_03_09_IST_2019.jpg height=200 width=200></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestNG_Dadadriver_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestNG Dadadriver suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Register_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadDirectories</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Login_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadDirectories</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.bhavin.testCases.TestCase_05_ValidateUserCanNotLoggedInWithoutPassword</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadDirectories</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestNG_Dadadriver_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Register_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">loadDirectories</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRegistrationDoneSuccessfully</span>
+                <span class="method-start">14048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">completeTestCase</span>
+                <span class="method-start">25207 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bhavin.testCases.TestCase_02_ValidateRegisterButtonShouldBeEnabledIfPasswordFieldBlank</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">26461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRegisterButtonShouldBeEnabledIfPasswordFieldBlank</span>
+                <span class="method-start">35901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">completeTestCase</span>
+                <span class="method-start">47186 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bhavin.testCases.TestCase_01_ValidateRegistrationDoneSuccessfully</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">quit</span>
+                <span class="method-start">48115 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Login_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">loadDirectories</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled</span>
+                <span class="method-start">9507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">completeTestCase</span>
+                <span class="method-start">20700 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bhavin.testCases.TestCase_04_ValidateDropDownValueOfFilterOnShopPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">21392 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateDropDownValueOfFilterOnShopPage</span>
+                <span class="method-start">30997 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">completeTestCase</span>
+                <span class="method-start">57340 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bhavin.testCases.TestCase_05_ValidateUserCanNotLoggedInWithoutPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">58207 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanNotLoggedInWithoutPassword</span>
+                <span class="method-start">67622 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">completeTestCase</span>
+                <span class="method-start">78339 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bhavin.testCases.TestCase_03_ValidateRegisterButtonShouldBeDisabledIfPasswordCriteriaNotFulFiiled</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">quit</span>
+                <span class="method-start">79119 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestNG_Dadadriver_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
